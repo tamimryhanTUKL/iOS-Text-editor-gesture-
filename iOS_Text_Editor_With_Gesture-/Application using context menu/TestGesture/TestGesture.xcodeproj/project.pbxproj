@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ACB1D3C1B4EB80000A00CE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB1D3B1B4EB80000A00CE4 /* main.m */; };
+		5ACB1D3F1B4EB80000A00CE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB1D3E1B4EB80000A00CE4 /* AppDelegate.m */; };
+		5ACB1D421B4EB80000A00CE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB1D411B4EB80000A00CE4 /* ViewController.m */; };
+		5ACB1D451B4EB80000A00CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACB1D431B4EB80000A00CE4 /* Main.storyboard */; };
+		5ACB1D471B4EB80000A00CE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACB1D461B4EB80000A00CE4 /* Images.xcassets */; };
+		5ACB1D4A1B4EB80000A00CE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ACB1D481B4EB80000A00CE4 /* LaunchScreen.xib */; };
+		5ACB1D561B4EB80000A00CE4 /* TestGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB1D551B4EB80000A00CE4 /* TestGestureTests.m */; };
+		5ACB1D6B1B4EB86500A00CE4 /* DollarP.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB1D601B4EB86500A00CE4 /* DollarP.m */; };
+		5ACB1D6C1B4EB86500A00CE4 /* DollarPGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB1D621B4EB86500A00CE4 /* DollarPGestureRecognizer.m */; };
+		5ACB1D6D1B4EB86500A00CE4 /* DollarDefaultGestures.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB1D641B4EB86500A00CE4 /* DollarDefaultGestures.m */; };
+		5ACB1D6E1B4EB86500A00CE4 /* DollarPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB1D661B4EB86500A00CE4 /* DollarPoint.m */; };
+		5ACB1D6F1B4EB86500A00CE4 /* DollarPointCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB1D681B4EB86500A00CE4 /* DollarPointCloud.m */; };
+		5ACB1D701B4EB86500A00CE4 /* DollarResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB1D6A1B4EB86500A00CE4 /* DollarResult.m */; };
+		5ACB1D731B4EB87500A00CE4 /* GestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB1D721B4EB87500A00CE4 /* GestureView.m */; };
+		5ACB1D751B4EB96A00A00CE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACB1D741B4EB96A00A00CE4 /* CoreGraphics.framework */; };
+		5ACB1D771B4EB97200A00CE4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACB1D761B4EB97200A00CE4 /* CoreFoundation.framework */; };
+		5ACB1D791B4EB97A00A00CE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACB1D781B4EB97A00A00CE4 /* Foundation.framework */; };
+		5ACB1D7B1B4EB98100A00CE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACB1D7A1B4EB98100A00CE4 /* UIKit.framework */; };
+		5ACBDA9B1BA9F30A00B80F8D /* FontType_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ACBDA9A1BA9F30900B80F8D /* FontType_Icon.png */; };
+		5ACBDAA31BAA033000B80F8D /* UnderLine_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ACBDAA21BAA033000B80F8D /* UnderLine_Icon.png */; };
+		5ACBDAA51BAA054700B80F8D /* Fontsize_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ACBDAA41BAA054700B80F8D /* Fontsize_Icon.png */; };
+		5ACBDAA71BAA069800B80F8D /* Deletetext_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ACBDAA61BAA069800B80F8D /* Deletetext_Icon.png */; };
+		5ACDAF2E1BA08B5B00B39434 /* GHContextMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACDAF2D1BA08B5B00B39434 /* GHContextMenuView.m */; };
+		5ACDAF301BA08C1300B39434 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACDAF2F1BA08C1300B39434 /* QuartzCore.framework */; };
+		5AD3C8051BA3A3C700962109 /* FontColor_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD3C7FA1BA3A3C700962109 /* FontColor_Icon.png */; };
+		5AD3C8071BA3A3C700962109 /* HighlightText_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD3C7FC1BA3A3C700962109 /* HighlightText_Icon.png */; };
+		5AD3C8081BA3A3C700962109 /* ItalicFont_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD3C7FD1BA3A3C700962109 /* ItalicFont_Icon.png */; };
+		5AD3C8091BA3A3C700962109 /* ParagraphAlignment_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD3C7FE1BA3A3C700962109 /* ParagraphAlignment_Icon.png */; };
+		5AD3C80A1BA3A3C700962109 /* Redo_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD3C7FF1BA3A3C700962109 /* Redo_Icon.png */; };
+		5AD3C80B1BA3A3C700962109 /* Shadow_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD3C8001BA3A3C700962109 /* Shadow_Icon.png */; };
+		5AD3C80C1BA3A3C700962109 /* Strikethrough_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD3C8011BA3A3C700962109 /* Strikethrough_Icon.png */; };
+		5AD3C80E1BA3A3C700962109 /* Undo_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD3C8031BA3A3C700962109 /* Undo_Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ACB1D501B4EB80000A00CE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ACB1D2E1B4EB80000A00CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ACB1D351B4EB80000A00CE4;
+			remoteInfo = TestGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5ACB1D361B4EB80000A00CE4 /* TestGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACB1D3A1B4EB80000A00CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ACB1D3B1B4EB80000A00CE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5ACB1D3D1B4EB80000A00CE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5ACB1D3E1B4EB80000A00CE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5ACB1D401B4EB80000A00CE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5ACB1D411B4EB80000A00CE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5ACB1D441B4EB80000A00CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5ACB1D461B4EB80000A00CE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5ACB1D491B4EB80000A00CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5ACB1D4F1B4EB80000A00CE4 /* TestGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACB1D541B4EB80000A00CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ACB1D551B4EB80000A00CE4 /* TestGestureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGestureTests.m; sourceTree = "<group>"; };
+		5ACB1D5F1B4EB86500A00CE4 /* DollarP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DollarP.h; sourceTree = "<group>"; };
+		5ACB1D601B4EB86500A00CE4 /* DollarP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DollarP.m; sourceTree = "<group>"; };
+		5ACB1D611B4EB86500A00CE4 /* DollarPGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DollarPGestureRecognizer.h; sourceTree = "<group>"; };
+		5ACB1D621B4EB86500A00CE4 /* DollarPGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DollarPGestureRecognizer.m; sourceTree = "<group>"; };
+		5ACB1D631B4EB86500A00CE4 /* DollarDefaultGestures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DollarDefaultGestures.h; sourceTree = "<group>"; };
+		5ACB1D641B4EB86500A00CE4 /* DollarDefaultGestures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DollarDefaultGestures.m; sourceTree = "<group>"; };
+		5ACB1D651B4EB86500A00CE4 /* DollarPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DollarPoint.h; sourceTree = "<group>"; };
+		5ACB1D661B4EB86500A00CE4 /* DollarPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DollarPoint.m; sourceTree = "<group>"; };
+		5ACB1D671B4EB86500A00CE4 /* DollarPointCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DollarPointCloud.h; sourceTree = "<group>"; };
+		5ACB1D681B4EB86500A00CE4 /* DollarPointCloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DollarPointCloud.m; sourceTree = "<group>"; };
+		5ACB1D691B4EB86500A00CE4 /* DollarResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DollarResult.h; sourceTree = "<group>"; };
+		5ACB1D6A1B4EB86500A00CE4 /* DollarResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DollarResult.m; sourceTree = "<group>"; };
+		5ACB1D711B4EB87500A00CE4 /* GestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureView.h; sourceTree = "<group>"; };
+		5ACB1D721B4EB87500A00CE4 /* GestureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureView.m; sourceTree = "<group>"; };
+		5ACB1D741B4EB96A00A00CE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5ACB1D761B4EB97200A00CE4 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		5ACB1D781B4EB97A00A00CE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5ACB1D7A1B4EB98100A00CE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5ACBDA9A1BA9F30900B80F8D /* FontType_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FontType_Icon.png; sourceTree = "<group>"; };
+		5ACBDAA21BAA033000B80F8D /* UnderLine_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnderLine_Icon.png; sourceTree = "<group>"; };
+		5ACBDAA41BAA054700B80F8D /* Fontsize_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fontsize_Icon.png; sourceTree = "<group>"; };
+		5ACBDAA61BAA069800B80F8D /* Deletetext_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Deletetext_Icon.png; sourceTree = "<group>"; };
+		5ACDAF2C1BA08B5200B39434 /* GHContextMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHContextMenuView.h; sourceTree = "<group>"; };
+		5ACDAF2D1BA08B5B00B39434 /* GHContextMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHContextMenuView.m; sourceTree = "<group>"; };
+		5ACDAF2F1BA08C1300B39434 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5AD3C7FA1BA3A3C700962109 /* FontColor_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FontColor_Icon.png; sourceTree = "<group>"; };
+		5AD3C7FC1BA3A3C700962109 /* HighlightText_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HighlightText_Icon.png; sourceTree = "<group>"; };
+		5AD3C7FD1BA3A3C700962109 /* ItalicFont_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ItalicFont_Icon.png; sourceTree = "<group>"; };
+		5AD3C7FE1BA3A3C700962109 /* ParagraphAlignment_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ParagraphAlignment_Icon.png; sourceTree = "<group>"; };
+		5AD3C7FF1BA3A3C700962109 /* Redo_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Redo_Icon.png; sourceTree = "<group>"; };
+		5AD3C8001BA3A3C700962109 /* Shadow_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shadow_Icon.png; sourceTree = "<group>"; };
+		5AD3C8011BA3A3C700962109 /* Strikethrough_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Strikethrough_Icon.png; sourceTree = "<group>"; };
+		5AD3C8031BA3A3C700962109 /* Undo_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Undo_Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ACB1D331B4EB80000A00CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACDAF301BA08C1300B39434 /* QuartzCore.framework in Frameworks */,
+				5ACB1D7B1B4EB98100A00CE4 /* UIKit.framework in Frameworks */,
+				5ACB1D791B4EB97A00A00CE4 /* Foundation.framework in Frameworks */,
+				5ACB1D771B4EB97200A00CE4 /* CoreFoundation.framework in Frameworks */,
+				5ACB1D751B4EB96A00A00CE4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACB1D4C1B4EB80000A00CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ACB1D2D1B4EB80000A00CE4 = {
+			isa = PBXGroup;
+			children = (
+				5AD3C7F81BA3A3C700962109 /* Image */,
+				5ACDAF2F1BA08C1300B39434 /* QuartzCore.framework */,
+				5ACB1D7A1B4EB98100A00CE4 /* UIKit.framework */,
+				5ACB1D781B4EB97A00A00CE4 /* Foundation.framework */,
+				5ACB1D761B4EB97200A00CE4 /* CoreFoundation.framework */,
+				5ACB1D741B4EB96A00A00CE4 /* CoreGraphics.framework */,
+				5ACB1D381B4EB80000A00CE4 /* TestGesture */,
+				5ACB1D521B4EB80000A00CE4 /* TestGestureTests */,
+				5ACB1D371B4EB80000A00CE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ACB1D371B4EB80000A00CE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ACB1D361B4EB80000A00CE4 /* TestGesture.app */,
+				5ACB1D4F1B4EB80000A00CE4 /* TestGestureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ACB1D381B4EB80000A00CE4 /* TestGesture */ = {
+			isa = PBXGroup;
+			children = (
+				5ACDAF2D1BA08B5B00B39434 /* GHContextMenuView.m */,
+				5ACDAF2C1BA08B5200B39434 /* GHContextMenuView.h */,
+				5ACB1D5F1B4EB86500A00CE4 /* DollarP.h */,
+				5ACB1D601B4EB86500A00CE4 /* DollarP.m */,
+				5ACB1D611B4EB86500A00CE4 /* DollarPGestureRecognizer.h */,
+				5ACB1D621B4EB86500A00CE4 /* DollarPGestureRecognizer.m */,
+				5ACB1D631B4EB86500A00CE4 /* DollarDefaultGestures.h */,
+				5ACB1D641B4EB86500A00CE4 /* DollarDefaultGestures.m */,
+				5ACB1D651B4EB86500A00CE4 /* DollarPoint.h */,
+				5ACB1D661B4EB86500A00CE4 /* DollarPoint.m */,
+				5ACB1D671B4EB86500A00CE4 /* DollarPointCloud.h */,
+				5ACB1D681B4EB86500A00CE4 /* DollarPointCloud.m */,
+				5ACB1D691B4EB86500A00CE4 /* DollarResult.h */,
+				5ACB1D6A1B4EB86500A00CE4 /* DollarResult.m */,
+				5ACB1D3D1B4EB80000A00CE4 /* AppDelegate.h */,
+				5ACB1D3E1B4EB80000A00CE4 /* AppDelegate.m */,
+				5ACB1D401B4EB80000A00CE4 /* ViewController.h */,
+				5ACB1D411B4EB80000A00CE4 /* ViewController.m */,
+				5ACB1D711B4EB87500A00CE4 /* GestureView.h */,
+				5ACB1D721B4EB87500A00CE4 /* GestureView.m */,
+				5ACB1D431B4EB80000A00CE4 /* Main.storyboard */,
+				5ACB1D461B4EB80000A00CE4 /* Images.xcassets */,
+				5ACB1D481B4EB80000A00CE4 /* LaunchScreen.xib */,
+				5ACB1D391B4EB80000A00CE4 /* Supporting Files */,
+			);
+			path = TestGesture;
+			sourceTree = "<group>";
+		};
+		5ACB1D391B4EB80000A00CE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ACB1D3A1B4EB80000A00CE4 /* Info.plist */,
+				5ACB1D3B1B4EB80000A00CE4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5ACB1D521B4EB80000A00CE4 /* TestGestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				5ACB1D551B4EB80000A00CE4 /* TestGestureTests.m */,
+				5ACB1D531B4EB80000A00CE4 /* Supporting Files */,
+			);
+			path = TestGestureTests;
+			sourceTree = "<group>";
+		};
+		5ACB1D531B4EB80000A00CE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ACB1D541B4EB80000A00CE4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AD3C7F81BA3A3C700962109 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				5ACBDAA61BAA069800B80F8D /* Deletetext_Icon.png */,
+				5ACBDAA41BAA054700B80F8D /* Fontsize_Icon.png */,
+				5ACBDA9A1BA9F30900B80F8D /* FontType_Icon.png */,
+				5AD3C7FA1BA3A3C700962109 /* FontColor_Icon.png */,
+				5ACBDAA21BAA033000B80F8D /* UnderLine_Icon.png */,
+				5AD3C7FC1BA3A3C700962109 /* HighlightText_Icon.png */,
+				5AD3C7FD1BA3A3C700962109 /* ItalicFont_Icon.png */,
+				5AD3C7FE1BA3A3C700962109 /* ParagraphAlignment_Icon.png */,
+				5AD3C7FF1BA3A3C700962109 /* Redo_Icon.png */,
+				5AD3C8001BA3A3C700962109 /* Shadow_Icon.png */,
+				5AD3C8011BA3A3C700962109 /* Strikethrough_Icon.png */,
+				5AD3C8031BA3A3C700962109 /* Undo_Icon.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ACB1D351B4EB80000A00CE4 /* TestGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ACB1D591B4EB80000A00CE4 /* Build configuration list for PBXNativeTarget "TestGesture" */;
+			buildPhases = (
+				5ACB1D321B4EB80000A00CE4 /* Sources */,
+				5ACB1D331B4EB80000A00CE4 /* Frameworks */,
+				5ACB1D341B4EB80000A00CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestGesture;
+			productName = TestGesture;
+			productReference = 5ACB1D361B4EB80000A00CE4 /* TestGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5ACB1D4E1B4EB80000A00CE4 /* TestGestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ACB1D5C1B4EB80000A00CE4 /* Build configuration list for PBXNativeTarget "TestGestureTests" */;
+			buildPhases = (
+				5ACB1D4B1B4EB80000A00CE4 /* Sources */,
+				5ACB1D4C1B4EB80000A00CE4 /* Frameworks */,
+				5ACB1D4D1B4EB80000A00CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ACB1D511B4EB80000A00CE4 /* PBXTargetDependency */,
+			);
+			name = TestGestureTests;
+			productName = TestGestureTests;
+			productReference = 5ACB1D4F1B4EB80000A00CE4 /* TestGestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ACB1D2E1B4EB80000A00CE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Tamim Ryhan";
+				TargetAttributes = {
+					5ACB1D351B4EB80000A00CE4 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5ACB1D4E1B4EB80000A00CE4 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 5ACB1D351B4EB80000A00CE4;
+					};
+				};
+			};
+			buildConfigurationList = 5ACB1D311B4EB80000A00CE4 /* Build configuration list for PBXProject "TestGesture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ACB1D2D1B4EB80000A00CE4;
+			productRefGroup = 5ACB1D371B4EB80000A00CE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ACB1D351B4EB80000A00CE4 /* TestGesture */,
+				5ACB1D4E1B4EB80000A00CE4 /* TestGestureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ACB1D341B4EB80000A00CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACB1D451B4EB80000A00CE4 /* Main.storyboard in Resources */,
+				5ACB1D4A1B4EB80000A00CE4 /* LaunchScreen.xib in Resources */,
+				5AD3C80A1BA3A3C700962109 /* Redo_Icon.png in Resources */,
+				5AD3C8051BA3A3C700962109 /* FontColor_Icon.png in Resources */,
+				5AD3C8081BA3A3C700962109 /* ItalicFont_Icon.png in Resources */,
+				5AD3C8091BA3A3C700962109 /* ParagraphAlignment_Icon.png in Resources */,
+				5ACBDA9B1BA9F30A00B80F8D /* FontType_Icon.png in Resources */,
+				5ACBDAA31BAA033000B80F8D /* UnderLine_Icon.png in Resources */,
+				5ACBDAA71BAA069800B80F8D /* Deletetext_Icon.png in Resources */,
+				5AD3C8071BA3A3C700962109 /* HighlightText_Icon.png in Resources */,
+				5AD3C80C1BA3A3C700962109 /* Strikethrough_Icon.png in Resources */,
+				5ACBDAA51BAA054700B80F8D /* Fontsize_Icon.png in Resources */,
+				5AD3C80B1BA3A3C700962109 /* Shadow_Icon.png in Resources */,
+				5AD3C80E1BA3A3C700962109 /* Undo_Icon.png in Resources */,
+				5ACB1D471B4EB80000A00CE4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACB1D4D1B4EB80000A00CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ACB1D321B4EB80000A00CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACB1D6C1B4EB86500A00CE4 /* DollarPGestureRecognizer.m in Sources */,
+				5ACB1D6E1B4EB86500A00CE4 /* DollarPoint.m in Sources */,
+				5ACB1D421B4EB80000A00CE4 /* ViewController.m in Sources */,
+				5ACB1D3F1B4EB80000A00CE4 /* AppDelegate.m in Sources */,
+				5ACB1D6F1B4EB86500A00CE4 /* DollarPointCloud.m in Sources */,
+				5ACB1D701B4EB86500A00CE4 /* DollarResult.m in Sources */,
+				5ACB1D731B4EB87500A00CE4 /* GestureView.m in Sources */,
+				5ACB1D6D1B4EB86500A00CE4 /* DollarDefaultGestures.m in Sources */,
+				5ACB1D6B1B4EB86500A00CE4 /* DollarP.m in Sources */,
+				5ACDAF2E1BA08B5B00B39434 /* GHContextMenuView.m in Sources */,
+				5ACB1D3C1B4EB80000A00CE4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACB1D4B1B4EB80000A00CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACB1D561B4EB80000A00CE4 /* TestGestureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ACB1D511B4EB80000A00CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ACB1D351B4EB80000A00CE4 /* TestGesture */;
+			targetProxy = 5ACB1D501B4EB80000A00CE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5ACB1D431B4EB80000A00CE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ACB1D441B4EB80000A00CE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5ACB1D481B4EB80000A00CE4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ACB1D491B4EB80000A00CE4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5ACB1D571B4EB80000A00CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5ACB1D581B4EB80000A00CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ACB1D5A1B4EB80000A00CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ACB1D5B1B4EB80000A00CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5ACB1D5D1B4EB80000A00CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestGesture.app/TestGesture";
+			};
+			name = Debug;
+		};
+		5ACB1D5E1B4EB80000A00CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestGesture.app/TestGesture";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ACB1D311B4EB80000A00CE4 /* Build configuration list for PBXProject "TestGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACB1D571B4EB80000A00CE4 /* Debug */,
+				5ACB1D581B4EB80000A00CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ACB1D591B4EB80000A00CE4 /* Build configuration list for PBXNativeTarget "TestGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACB1D5A1B4EB80000A00CE4 /* Debug */,
+				5ACB1D5B1B4EB80000A00CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ACB1D5C1B4EB80000A00CE4 /* Build configuration list for PBXNativeTarget "TestGestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACB1D5D1B4EB80000A00CE4 /* Debug */,
+				5ACB1D5E1B4EB80000A00CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ACB1D2E1B4EB80000A00CE4 /* Project object */;
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yZV-Ps-L7c" customClass="GestureView">
+                                <rect key="frame" x="0.0" y="0.0" width="582" height="592"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Hello Text Editor" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gz9-oj-mWu">
+                                        <rect key="frame" x="43" y="22" width="467" height="74"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Len-ny-8QG" appends="YES" id="Ght-w8-eKw"/>
+                                    <outletCollection property="gestureRecognizers" destination="BT9-a7-U5W" appends="YES" id="C6c-1B-zSS"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="gestureView" destination="yZV-Ps-L7c" id="GqB-bF-XOe"/>
+                        <outlet property="leftSwipeGestureRecognizer" destination="Len-ny-8QG" id="Wj1-rX-caH"/>
+                        <outlet property="myTextView" destination="gz9-oj-mWu" id="6En-Gv-aUv"/>
+                        <outlet property="myUIView" destination="yZV-Ps-L7c" id="6kp-Z4-8LZ"/>
+                        <outlet property="rightSwipeGestureRecognizer" destination="BT9-a7-U5W" id="QId-CW-uYH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="Len-ny-8QG"/>
+                <swipeGestureRecognizer direction="right" id="BT9-a7-U5W"/>
+            </objects>
+            <point key="canvasLocation" x="280" y="254"/>
+        </scene>
+    </scenes>
+</document>
